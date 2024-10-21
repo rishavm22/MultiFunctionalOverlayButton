@@ -22,6 +22,7 @@ import androidx.core.app.NotificationCompat;
 
 import com.example.demoproject.MainActivity;
 import com.example.demoproject.R;
+import com.example.demoproject.view.CircularImageView;
 
 public class OverlayButtonService extends Service {
 
@@ -105,7 +106,7 @@ public class OverlayButtonService extends Service {
 
         // Implement click listeners for options
         ImageButton audioButton = overlayView.findViewById(R.id.audio_button);
-        Button myAppButton = overlayView.findViewById(R.id.floating_button); // Assuming "floating_button" is the ID of your "MyApp" button
+        CircularImageView myAppButton = overlayView.findViewById(R.id.floating_button); // Assuming "floating_button" is the ID of your "MyApp" button
         ImageButton videoButton = overlayView.findViewById(R.id.video_button);
         ImageButton screenshareButton = overlayView.findViewById(R.id.screenshare_button);
         ImageButton backButton = overlayView.findViewById(R.id.back_button);

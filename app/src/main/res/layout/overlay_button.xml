@@ -6,7 +6,7 @@
 
     <LinearLayout
         android:id="@+id/menu_option_layout"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:visibility="gone">
@@ -61,11 +61,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <com.example.demoproject.view.CircularImageView
             android:id="@+id/floating_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MyApp" />
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp"
+            android:src="@android:drawable/ic_menu_more" />
 
     </LinearLayout>
 
